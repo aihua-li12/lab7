@@ -19,6 +19,9 @@ knitr::opts_chunk$set(echo = TRUE,
                       comment = NA,
                       fig.width=8, 
                       fig.height=6)
+library(rvest)
+library(jsonlite)
+library(tidyverse)
 ```
 
 ## Introduction
@@ -49,7 +52,8 @@ in folder `data`. Below, load your data with `readRDS()`
 </div>
 
 ```{r load_tornadoes}
-
+# mkdir /data
+readRDS("~/desktop/fall2020/sta523/lab/lab7/data/ok_tornade.rds")
 ```
 
 <br/>
