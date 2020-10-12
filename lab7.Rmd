@@ -53,7 +53,7 @@ in folder `data`. Below, load your data with `readRDS()`
 
 ```{r load_tornadoes}
 # mkdir /data
-readRDS("~/desktop/fall2020/sta523/lab/lab7/data/ok_tornade.rds")
+readRDS("data/ok_tornade.rds")
 ```
 
 <br/>
@@ -72,7 +72,7 @@ data with `readRDS()`.
 </div>
 
 ```{r load_school_districts}
-
+readRDS("data/school_districts.rds")
 ```
 
 <br/>
@@ -90,7 +90,7 @@ data with `readRDS()`.
 </div>
 
 ```{r load_fire_stations}
-
+readRDS("data/fire_stations.rds")
 ```
 
 <br/>
